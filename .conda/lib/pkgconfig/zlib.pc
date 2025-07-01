@@ -1,0 +1,13 @@
+prefix=/workspaces/potential-carnival/.conda
+exec_prefix=/workspaces/potential-carnival/.conda
+libdir=/workspaces/potential-carnival/.conda/lib
+sharedlibdir=/workspaces/potential-carnival/.conda/lib
+includedir=/workspaces/potential-carnival/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
