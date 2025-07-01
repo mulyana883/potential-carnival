@@ -1,0 +1,11 @@
+prefix=/workspaces/potential-carnival/.conda
+exec_prefix=/workspaces/potential-carnival/.conda
+libdir=/workspaces/potential-carnival/.conda/lib
+includedir=/workspaces/potential-carnival/.conda/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
